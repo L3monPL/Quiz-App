@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body, html{
+  padding: 0;
+  margin: 0;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+}
+
+.divQuizTest {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 800px;
+  max-width: 100%;
+}
+
+.quiz-header {
+  padding: 2rem;
+}
+.quiz-container h1{
+    padding-bottom: 1rem;
+}
+.quiz-container h2 {
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+.quiz-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-container ul li {
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.quiz-container ul li input {
+  cursor: pointer;
+}
+
+.quiz-container ul li label {
+  cursor: pointer;
+}
+
+.quiz-container button {
+  background: #9446AB;
+  border: none;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.quiz-container button:hover{
+    background: rgb(158, 23, 91);
+}
+.buttonHome{
+  background: rgb(226, 212, 51) !important; 
+}
+.buttonHome:hover{
+  background: rgb(197, 183, 37) !important; 
+}
+.buttonHome a{
+  text-decoration: none;
+  color: black;
+}
+
+/*---------------------Header---------------------*/
+header{
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  width: 100%;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  height: auto;
+  z-index: 999;
+}
+header ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding: 0 1rem;
+}
+header ul li a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  font-weight: 700;
+  font-family: Poppins;
+}
+header ul li a:hover{
+  color: rgb(158, 23, 91);
+}
+.nav{
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 0;
+}
+/*---------------------SECTION 1---------------------*/
+
+.mainBackground{
+  height: auto;
+  /* background: url(https://thumbs.dreamstime.com/b/znaki-zapytania-30381883.jpg); */
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(148,70,171,1) 50%, rgba(0,212,255,1) 100%);
+  text-align: center;
+  justify-content: center;
+  background-color: #333;
+}
+.mainBackgroundText{
+  display: block;
+  margin: 0;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.mainCategoryBox{
+  height: 6px;
+  background-color: #9446AB;
+}
+.mainCategoryBox2{
+  height: 3rem;
+  background-color: #333;
+}
+
+/*---------------------SECTION 2---------------------*/
+.box-quiz{
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
+.mainBox{
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  margin-left: 16%;
+  margin-right: 16%;
+  padding-bottom: 3rem;
+}
+.titleBox{
+  width: 100%;
+  background-color: #9446AB;
+  display: block;
+}
+.titleBox h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+.cointainerColMain{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cointainerColMain img{
+  display: block;
+}
+.leftContainer{
+width: 50%;
+text-align: center;
+align-items: center;
+}
+.rightContainer{
+width: 50%;
+text-align: center;
+align-items: center;
+}
+.imgBoxQuiz{
+  background-color: #333;
+  max-width: 100%;
+  max-height: 350px;
+  background-size: cover;
+}
+.quizBox{
+  width: auto;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.quizBox a{
+  text-decoration: none;
+}
+.quizBox a:hover{
+  opacity: 0.9;
+}
+.quizBox h2{
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  background-color: #9446AB;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+}
